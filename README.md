@@ -7,7 +7,7 @@ This patch will unjail the console, removing the "console: " prepend on every rc
 You can use this patch by either:
   * Compile by running `make` in the root of the repo then run the compiled ELF.  
     -OR-
-  * Download the ELF that's already precompiled for x64 Debian flavours of Linux.  
+  * [Download](https://github.com/Zinglish/cod4-patch-customconsole/blob/master/cod4-patch-customconsole-deb-x64?raw=true) the ELF that's already precompiled for x64 Debian flavours of Linux.  
 
 ##### Usage
 Binary takes 1 parameter. The last parameter of the command should be the path to the CoD4 Server binary you wish to patch. EG: `cod4-patch-customconsole cod4-lnxded`.
