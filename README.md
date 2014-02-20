@@ -17,6 +17,7 @@ This patcher hard patches the short bytes inside the ELF.
 ```text
  --------------------------
 | OFFSET     | FROM | TO   |
+|------------|------|------|
 | 0x00124DDF | 63   | 5E   |
 | 0x00124DE0 | 6F   | 37   |
 | 0x00124DE1 | 6E   | 5E   |
